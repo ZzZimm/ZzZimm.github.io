@@ -1,0 +1,95 @@
+body {
+    font-size: 14px;
+    background-color: #F0F0F0;
+    font-family: system-ui;
+}
+
+#headerContainer {
+    height: 80px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+#addTask {
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size:12px;
+    text-align: left;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    background-color: white;
+    display: none;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    font-size: 14px;
+}
+
+#addTask:hover {
+    font-weight: bold;
+}
+
+.action {
+    height: 1rem;
+    width: 1rem;
+    padding: 2px;
+}
+
+.action:hover {
+    opacity: .5;
+}
+
+.checkbox {
+    border-right: 0px;
+    width: 15px;
+    margin: auto;
+}
+
+.title {
+    border-left: 0px;
+    width: 20vw;
+}
+
+.description {
+    width: 60vw;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    resize: none;
+    overflow: hidden;
+    border: 1px lightBlue dashed;
+}
+
+.dueDate {
+    width: 115px;
+}
+
+.dueDate input {
+    border: 0px;
+    font-size: 12px;
+    width: 115px;
+    font-weight: normal;
+    font-family: system-ui;
+}
+
+.actionBox {
+    width: 100px;
+    padding: 0;
+    padding-left:10px;
+}
