@@ -20,7 +20,7 @@ body {
 table {
     border-collapse: collapse;
     width: 100%;
-    font-size:12px;
+    font-size: 12px;
     text-align: left;
     word-break: break-word;
     overflow-wrap: break-word;
@@ -42,6 +42,11 @@ th {
     font-weight: bold;
 }
 
+.button {
+  position: absolute;
+  right: 1vw;
+}
+
 .action {
     height: 1rem;
     width: 1rem;
@@ -60,11 +65,13 @@ th {
 
 .title {
     border-left: 0px;
+    position: relative;
     width: 20vw;
 }
 
 .description {
     width: 60vw;
+    position: relative;
 }
 
 textarea {
@@ -78,6 +85,7 @@ textarea {
 
 .dueDate {
     width: 115px;
+    position: relative;
 }
 
 .dueDate input {
